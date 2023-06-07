@@ -21,7 +21,7 @@ const Details = () => {
       <Cast data={credits?.cast} loading={creditsLoading} />
       <VideosSection data={data} loadiing={loading} />
       <Similar mediaType={mediaType} id={id} />
-      <Recommendation mediaType={mediaType} id={id} />
+      <Recommendation />
     </div>
   )
 }
